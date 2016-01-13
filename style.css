@@ -1,0 +1,68 @@
+body {
+	font-family: 'Oswald' ;
+	background-color: black;
+	color: white;
+}
+
+.content {
+	margin: auto; /* Horizonatally centering everything in the "content" sections */
+	max-width: 40em;
+	padding: 0 1em;
+	
+} 
+
+.full {
+	height: 100%;
+	
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed; /*Parallax scrolling*/
+}
+
+#commons {
+	/*background-image: url (http://www.guylauzon.ca/wp-content/uploads/2015/06/HoC.jpg);*/
+    background-image: url(https://c2.staticflickr.com/8/7282/8737181234_3fac28af34_b.jpg);
+}
+
+
+#warzone{
+	background-image: url(https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/04/17/Editorial-Opinion/Images/2015-04-02T130635Z_01_SYR02_RTRIDSP_3_SYRIA-CRISIS-1409.jpg);
+}
+
+#bomb {
+	
+
+	width: 300px;
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	margin-left: -150px;
+	margin-top: 500px;
+}
+
+#bottom {
+	background-color: yellow;
+	color: black;
+	padding: 20px;
+	text-align: center;
+	border: 5px hidden;
+
+}
+
+#topbar {
+	background-color: f000000;
+}
+
+#form {
+
+}
+
+.button {
+
+	margin-top: -50px;
+	color: black;
+}
+
+html, body {
+	height: 85%;
+}
